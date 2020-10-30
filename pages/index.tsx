@@ -1,4 +1,6 @@
+import IndexNavbar from '../components/tailwind/navbars/index-navbar'
+
 function Index() {
-  return <div>Welcome to your Homepage</div>;
+  return <><IndexNavbar /></>;
 }
 export default Index;
