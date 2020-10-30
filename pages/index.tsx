@@ -1,9 +1,12 @@
-import IndexNavbar from '../components/tailwind/navbars/index-navbar'
-import Footer from "../components/tailwind/footers/default-footer";
+import React from "react";
+import IndexNavbar from "@components/tailwind/navbars/index-navbar";
+import Footer from "@components/tailwind/footers/default-footer";
 
-function Index() {
-  return <><IndexNavbar />
-  <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
+const Index = () => {
+  return (
+    <>
+      <IndexNavbar />
+      <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
@@ -11,7 +14,11 @@ function Index() {
                 This is a sample hero section
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-gray-600">
-              Nam venenatis lacus massa, vitae porta urna sagittis non. Nulla nec porta libero. Nunc ultrices cursus fringilla. Sed id justo ullamcorper, aliquam turpis at, dictum lacus. Vivamus faucibus massa ac interdum euismod. Morbi sit amet libero eros. Nullam sit amet posuere dolor.
+                Nam venenatis lacus massa, vitae porta urna sagittis non. Nulla
+                nec porta libero. Nunc ultrices cursus fringilla. Sed id justo
+                ullamcorper, aliquam turpis at, dictum lacus. Vivamus faucibus
+                massa ac interdum euismod. Morbi sit amet libero eros. Nullam
+                sit amet posuere dolor.
               </p>
               <div className="mt-12">
                 <a
@@ -30,6 +37,9 @@ function Index() {
           src="https://image.freepik.com/free-vector/group-people-working-together_52683-28615.jpg"
           alt="hero"
         />
-      </section><Footer /></>;
-}
+      </section>
+      <Footer />
+    </>
+  );
+};
 export default Index;
