@@ -128,12 +128,12 @@ export default function Footer() {
               Copyright © {new Date().getFullYear()} Your Company Inc.
             </div>
             <div className="text-sm text-gray-600 font-semibold my-4 flex items-center justify-center">
-              <span className="mr-2">Powered by</span>
+              <span className="mr-2">Website powered by</span>
               <a
                 href="#"
                 className="text-gray-600 hover:text-gray-900"
               >
-                <img src="/unitypro-logo.png" width="42" />
+                <img src="/unitypro-logo.png" width="34" />
               </a>
             </div>
           </div>
